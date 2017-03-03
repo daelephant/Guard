@@ -160,13 +160,13 @@ var dataReflush, list = {
 		target: "purchase",
 		list: "../scm/invPo?action=initPoList"
 	},
-	purchase: {
-		name: "入库单",
-		href: "../scm/invPu?action=initPur",
-		dataRight: "PU_ADD",
-		target: "purchase",
-		// list: "../scm/invPu?action=initPurList"
-	},
+	// purchase: {
+	// 	name: "入库单",
+	// 	href: "../scm/invPu?action=initPur",
+	// 	dataRight: "PU_ADD",
+	// 	target: "purchase",
+	// 	// list: "../scm/invPu?action=initPurList"
+	// },
 	purchaseBack: {
 		name: "采购退货单",
 		href: "../scm/invPu?action=initPur&transType=150502",

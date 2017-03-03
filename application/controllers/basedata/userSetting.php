@@ -44,5 +44,6 @@ class UserSetting extends CI_Controller {
 	
 }
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+// /* End of file welcome.php */
+//  Location: ./application/controllers/welcome.php 
+// git remote add origin https://github.com/daelephant/PMS

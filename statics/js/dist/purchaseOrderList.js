@@ -104,13 +104,16 @@ var queryConditions = {
 				label: "备注",
 				index: "description",
 				width: 200,
-				sortable: !1
-			}, {
+				sortable: !1,
+				editable: !0
+			}
+			, {
 				name: "disEditable",
 				label: "不可编辑",
 				index: "disEditable",
 				hidden: !0
-			}];
+			}
+			];
 			this.mod_PageConfig.gridReg("grid", e), e = this.mod_PageConfig.conf.grids.grid.colModel, $("#grid").jqGrid({
 				url: "../scm/invPo.do?action=list",
 				postData: queryConditions,

@@ -72,7 +72,7 @@ $(function() {
 <style>
 #barCodeInsert{margin-left: 10px;font-weight: 100;font-size: 12px;color: #fff;background-color: #B1B1B1;padding: 0 5px;border-radius: 2px;line-height: 19px;height: 20px;display: none;}
 #barCodeInsert.active{background-color: #23B317;}
-#save,#audit{display:none;}
+#save{display:none;} /*#audit{display:none} *//*采购订单页面审核按钮*/
 #add,#copy,#close,#prev,#next{display:none}
 </style>
 </head>
@@ -100,7 +100,7 @@ $(function() {
         <dd id="identifier" class="pct20 tc">
           <label>单据编号:</label>
           <span id="number"><?php echo $billNo?></span></dd>
-        <dd id="classes" class="pct15 tr">
+        <dd id="classes" class="pct15 tr" style="display:none;">
           <label class="radio">
             <input type="radio" name="classes" value="150501">
             采购</label>

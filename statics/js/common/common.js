@@ -337,7 +337,7 @@ $.fn.extend({
 				loading.close();
 			},
 			error: function(err){  
-				parent.Public.tips({type: 1, content : '操作无法成功，请稍后重试！'});
+				parent.Public.tips({type: 1, content : '请仔细检查录入数据，稍后重试！'});
 				try{
 					console.log(err)
 				}catch(e){

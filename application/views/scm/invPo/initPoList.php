@@ -34,11 +34,7 @@ $(document).keydown(function(event) {
 .ui-btn-menu{margin-left: 10px;margin-right: 0px;}
 #reAudit,#audit{display:none;}
 #add,#btn-batchDel{display:none;}
-element.style {
-    width: 40px;
-    padding-right: 14px;
-    display: none;
-}
+
 </style>
 </head>
 
@@ -89,7 +85,8 @@ element.style {
       <div class="ui-btn-menu">
         <a href="#" class="ui-btn" id="btn-batchDel">删除</a>
       </div>
-      <div class="ui-btn-menu">
+      <!-- 隐藏入库检验单查询界面的审核————反审核按钮 -->
+      <div class="ui-btn-menu" style="display:none">
           <a class="ui-btn menu-btn mrb" style="width: 40px;padding-right: 14px;" href="#" id="audit">审核<b></b></a>
           <div class="con more-operate-con" style="margin-left: 0px;font-size: 14px;width: 55px;padding: 6px;">
             <ul class="more-operate cf" style="border-style:dashed; border-width:1px; border-color:#ccc;">
