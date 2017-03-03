@@ -100,7 +100,7 @@ $(function() {
         <dd id="identifier" class="pct20 tc">
           <label>单据编号:</label>
           <span id="number"><?php echo $billNo?></span></dd>
-        <dd id="classes" class="pct15 tr">
+        <dd id="classes" class="pct15 tr" style="display:none;">
           <label class="radio">
             <input type="radio" name="classes" value="150501">
             采购</label>

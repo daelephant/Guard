@@ -31,6 +31,7 @@ $(document).keydown(function(event) {
 #print{margin-left:10px;}
 a.ui-btn{margin-left:10px;}
 #reAudit,#audit{display:none;}
+#classes{display:none;}
 /*#add,#copy{display:none;}*/
 </style>
 </head>
